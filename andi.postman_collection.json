@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "c7fc0805-860a-4076-8ed8-66c7a604acd0",
+		"name": "andi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://148.251.63.135:5000/andi",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/aminabedi/Desktop/andi/patient_B_features1.csv"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://148.251.63.135:5000/andi",
+					"protocol": "http",
+					"host": [
+						"148",
+						"251",
+						"63",
+						"135"
+					],
+					"port": "5000",
+					"path": [
+						"andi"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
